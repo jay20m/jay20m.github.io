@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Final project</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8' />
+  <title>Wildfire in Vermont</title>
+  <meta name='author' content='2749012' />
+  <!-- viewport pan and zoom restrictions -->
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scaleable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+
+  <!-- Connect to google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700" rel="stylesheet">
+  
+          <!-- Mapbox JS API !-->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
+</head>
+
+<body>
+<div id="main">
+  
+    <div class='title-overlay'> Wild Fire Distribution <br>
+  <span style = "font-size:0.5em; vertical-align: 50%">In the</span> Vermont<span style = "font-size:0.5em; vertical-align: 50%"> of 2020</span> </div>
+  
+  <div id='map'></div>
+  
+</div>
+  <div id='console'>
+ <h1>Causes Category:</h1>
+  
+<!–– Checkbox buttons go below––>
+ <div class='session'>
+ <div class='row' id='filters'>
+ <input id='ACheck' type='checkbox' name='Atoggle' value='A' checked='checked'>
+ <label for='ACheck'>Debris and open burning</label>
+ <input id='BCheck' type='checkbox' name='Btoggle' value='B' checked='checked'>
+ <label for='Bcheck'>Recreation and ceremony</label>
+ </div>
+</div> 
+  
+</div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
